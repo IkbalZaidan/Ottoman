@@ -297,17 +297,24 @@ p {
 }
 
 .realestate-navigation-inner-menus-list a {
-    background: #423b62;
+    background: transparent;
     color: var(--white-700);
     font-size: 12px;
     transition: var(--transition);
-    border-radius: 50px;
+    /* border-radius: 50px; */
     padding: 5px 11px;
+    border: 1px solid #fff;
+}
+
+.realestate-navigation-inner-menus-list  .active {
+    background: #DFCEB3;
+    border: none;
+    color: #000;
 }
 
 .realestate-navigation-inner-menus-list a:hover {
-    background-color: var(--primary-color);
-    color: var(--white-700);
+    background: #DFCEB3;
+    color: #000;
 }
 
 .realestate-header.inner-pages-header .realestate-header-container {

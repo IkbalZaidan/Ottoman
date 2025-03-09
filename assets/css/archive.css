@@ -445,14 +445,13 @@ Radio Field
 }
 
 .realestate-archive-info-and-actions {
-    border-radius: 8px;
     border: 1px solid #DBDBDB;
     background: var(--white-700);
     padding: 26px 16px;
 }
 
 .loop-style1.realestate-item .real-listings-post-content .post-price span {
-    color: #4081FF;
+    color: #29A884;
 }
 
 .realestate-archive-info-and-actions .realestate-archive-actions>div:first-child {
@@ -601,7 +600,6 @@ Radio Field
 }
 
 .realestate-images-filter p {
-    border-radius: 4px;
     background: var(--primary-font-color);
     color: var(--white-700);
     font-size: 12px;
@@ -705,9 +703,8 @@ Radio Field
 }
 
 .archive-activate-abs-alerts {
-    border-radius: 8px;
     padding: 22px;
-    background: #D9E6FF;
+    background: #DFCEB3;
 }
 
 .archive-activate-abs-alerts h3 {
@@ -865,7 +862,7 @@ Radio Field
     padding: 8px 9px 12px 9px;
     height: 47px;
     border-color: #002F34;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 
 .realestate-search-filters .realestate-search-filters-dropdown span.select2-selection.select2-selection--single.select2-selection--clearable .select2-selection__clear {
@@ -932,7 +929,7 @@ Radio Field
 .realestate-filters-view-more {
     cursor: pointer;
     font-weight: 400 !important;
-    color: var(--primary-color) !important;
+    color: #000 !important;
 }
 
 .realestate-search-filters-main-list input {
