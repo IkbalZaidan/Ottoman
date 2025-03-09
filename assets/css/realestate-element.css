@@ -566,8 +566,8 @@ body {
     position: relative;
     text-align: center;
     background: #ffffff;
-    padding: 3px;
-    border-radius: 4px;
+    padding: 0px;
+    border-radius: 0px;
     transition: 0.3s;
     overflow: hidden;
 }
@@ -580,7 +580,6 @@ body {
     width: 100%;
     height: 100%;
     transition: var(--transition);
-    border-radius: 4px;
     object-fit: cover;
 }
 
@@ -636,7 +635,6 @@ body {
 .real-estate-categories-item .re-categories-thumbnail a {
     display: block;
     overflow: hidden;
-    border-radius: 4px;
     height: 100%;
 }
 
@@ -11255,6 +11253,59 @@ section.home11-available-cities.pb-100.pt-100 {
 
 
 
+
+
+
+
+
+.find-your-dreams-content3 {
+    padding-inline: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background: #000;
+    background-size: cover;
+    max-width: 1216px;
+    min-height: 200px;
+    z-index: 9999;
+    position: relative;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.find-your-dreams-content3 h2 {
+    margin-top: 53px;
+    font-size: 45px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.find-your-dreams-content3 p {
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+
+.find-your-dreams-content3 a {
+    background: #DFCEB3;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    width: max-content;
+}
+
+.find-your-dreams-content3 a:hover {
+    color: #F8BB18;
+    background: white;
+}
+
 /* Let’s Find Your Dream House with Dreamwell! End */
 
 
@@ -13381,4 +13432,13 @@ header.luxury-listings-header.realestate-is-sticky {
 .prim-btn:hover {
     color: #F8BB18;
     background: white;
+}
+
+
+.real-estate-categories-item {
+    border: 1px solid #B9B9B94F;
+}
+
+.recategories-details p{
+    padding-bottom: 30px;
 }

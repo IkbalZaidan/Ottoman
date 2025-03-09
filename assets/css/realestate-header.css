@@ -204,6 +204,11 @@ p {
     background: #DFCEB3;
 }
 
+
+.header-classic2 .realestate-submission-btn:hover {
+    background: #000;
+}
+
 .realestate-not-filled-btn-login.realestate-offcanvas-menu-btn {
     color: var(--primary-color);
     border: unset;
