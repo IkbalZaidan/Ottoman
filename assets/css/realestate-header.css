@@ -561,7 +561,7 @@ p {
  
 /* home 1 header styling  */
 .realestate-header.home1 .realestate-header-container {
-    padding: 56px 0;
+    /* padding: 56px 0; */
 }
 .realestate-header.inner-pages-header .realestate-header-container .realestate-classic-navigation-icons i {
     color: #fff;
