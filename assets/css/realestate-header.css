@@ -162,7 +162,7 @@ p {
 
 :root {
     --home-header-bg: #fff0;
-    --inner-header-bg: #070026;
+    --inner-header-bg: #000;
 }
 .realestate-header-container.agency-header .realestate-navigation-nav-menus li:hover>a {
     background-color: #E6F2FF;
