@@ -9892,10 +9892,14 @@ ul.luxury-listings-grids-2.luxury-home-listing::after {
 
 .luxury-listings-get-in-touch-title h2 {
     font-size: 40px;
-    font-weight: 300;
+    font-weight: bold;
     font-family: "Montserrat";
-    color: #DAB668;
+    color: #000;
 
+}
+
+.luxury-listings-get-in-touch-title p {
+    color: #000;
 }
 
 .luxury-listings-testimonial-thumb {
@@ -9921,28 +9925,28 @@ ul.luxury-listings-grids-2.luxury-home-listing::after {
 .luxury-listings.realestate-user-form-group input {
     border: none;
     background: transparent;
-    color: #DAB668 !important;
-    height: 90px;
+    color: gray !important;
+    height: 70px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0;
 }
 
 .luxury-listings.realestate-user-form-group input::placeholder {
-    color: #DAB668 !important;
+    color: #9E9E9E !important;
 }
 
 .luxury-listings.realestate-user-form-group textarea {
     min-height: 117px !important;
     border: none;
     background: transparent;
-    color: #DAB668 !important;
-    height: 80px;
+    height: 70px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     padding: 51px 0 16px 0;
     align-items: center;
+    color: #9E9E9E;
 
 }
 
@@ -9972,9 +9976,10 @@ ul.luxury-listings-grids-2.luxury-home-listing::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 0px;
     font-size: 20px;
-    color: #7A6539;
+    color: #DFCEB3;
+    background: #000;
 }
 
 .form-bg-color {
@@ -9982,18 +9987,24 @@ ul.luxury-listings-grids-2.luxury-home-listing::after {
 }
 
 .luxury-listings.realestate-form-style2-form-inputs {
-    padding: 51px 68px 94px 47px;
+    padding-block: 20px;
     max-width: 616px;
     width: 100%;
 }
 
 .luxury-listings-touch-form-btn a {
-    color: #DAB668;
+    color: #000;
     display: flex;
     justify-content: end;
     font-size: 20px;
     gap: 10px;
     align-items: center;
+    background-color: #DFCEB3;
+    border-radius: 50px;
+    width: max-content;
+    font-size: 14px;
+    padding-inline: 20px;
+    padding-block: 10px;
 }
 
 .luxury-listings-touch-form-btn a i {
@@ -10026,19 +10037,19 @@ ul.luxury-listings-grids-2.luxury-home-listing::after {
 }
 
 .luxury-listings.realestate-form-style2-contacts-type p {
-    color: #7A6539;
+    color: #000;
     font-family: "inter";
 }
 
 .luxury-listings.realestate-form-style2-contacts-type h4 {
     font-weight: 400;
-    color: #DAB668;
+    color: gray;
     font-family: "inter";
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .luxury-listings.realestate-form-style2-contacts-social-icons ul li a {
-    color: #DAB668;
+    color: #000;
     font-size: 20px;
 }
 
@@ -13351,7 +13362,7 @@ header.luxury-listings-header.realestate-is-sticky {
 }
 
 .luxury-listings.realestate-user-form-group {
-    border-bottom: 1px solid #DAB668;
+    border-bottom: 1px solid #000;
     padding: 0 0 3px 0;
 }
 
