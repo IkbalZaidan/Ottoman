@@ -121,6 +121,19 @@ body {
     padding-top: 219px;
 }
 
+
+.realestate-banner-home.abouts {
+    background: url('../images/about.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 1003px;
+    justify-content: center;
+    padding-top: 219px;
+}
+
 .realestate-banner-home.classic .realestate-home-banner-search.style1 {
     margin-bottom: 33px;
 }
